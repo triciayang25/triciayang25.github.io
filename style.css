@@ -353,3 +353,20 @@ ul {
     border-radius: 5px;   
     /* border-color: white; */
 }
+
+.card {
+    background: var(--bg-glass);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+}
+
+.card-title {
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--accent);
+}
